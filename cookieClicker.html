@@ -30,7 +30,7 @@
 
   <h1>Star Clicker ⭐️ </h1>
   <button id="cookieButton">⭐️</button>
-  <div id="counter">Cookies: 0</div>
+  <div id="counter">Stars: 0</div>
   <div id="message">Start clicking!</div>
 
   <script>
@@ -44,10 +44,10 @@ button.addEventListener("click", function () {
   counter.textContent = `Cookies: ${count}`;
 
   if (count === 10) {
-    message.textContent = "You’re just getting started 🍪";
+    message.textContent = "You’re just getting started ⭐️";
     document.body.style.backgroundColor = "#e0f7fa";
   } else if (count === 25) {
-    message.textContent = "Wow, that’s a lot of cookies! 🤯";
+    message.textContent = "Wow, that’s a lot of Stars! 🤯";
     document.body.style.backgroundColor = "#ffe0b2";
   } else if (count === 50) {
     message.textContent = "Are you still clicking? 😅";
